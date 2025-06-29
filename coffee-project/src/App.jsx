@@ -3,6 +3,7 @@ import Header from './components/Header';
 import AboutSection from './components/AboutSection';
 import HighlightsSection from './components/HighlightsSection';
 import CallToActionSection from './components/CallToActionSection';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
     <>
       <div>
         <Header />
-        <AboutSection />
-        <HighlightsSection />
-        <CallToActionSection />
+        <AboutSection id={"About"} />
+        <HighlightsSection id={"Highlights"} />
+        <CallToActionSection id={"CallToAction"} />
+        <Footer />
       </div>
     </>
   )

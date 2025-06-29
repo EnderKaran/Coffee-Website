@@ -3,7 +3,7 @@ import { HiCheckBadge, HiPhone, HiPlay } from "react-icons/hi2";
 import PromoVideo from '../assets/promo-video.mp4';
 import AboutBg from '../assets/about-bg.png';
 
-function AboutSection() {
+function AboutSection({ id }) {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -23,7 +23,7 @@ function AboutSection() {
 
   return ( 
     // The main container must be 'relative' to position child elements against it.
-    <section className="relative bg-zinc-900 text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section id={id} className="relative bg-zinc-900 text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
       
       {/* BACKGROUND LAYER (z-0) */}
       {/* This layer must be a direct child of the section. */}

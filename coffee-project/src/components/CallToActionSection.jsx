@@ -3,9 +3,9 @@
 import React from 'react';
 import { HiUser, HiEnvelope, HiLockClosed } from 'react-icons/hi2';
 
-function CallToActionSection() {
+function CallToActionSection({id}) {
   return (
-    <div className="bg-zinc-900 py-24 text-white ">
+    <div id={id} className="bg-zinc-900 py-24 text-white ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
 
