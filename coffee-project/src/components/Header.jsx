@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Hero from './Hero';
 import HeaderImage from '../assets/header-background.png';
 
 function Header() {
@@ -17,7 +18,7 @@ function Header() {
         {/* İçerik Alanı */}
         <div className="relative z-10">
           <Navbar />
-          
+          <Hero />
           {/* Ortadaki büyük logo ve yazı (Hero) alanı buraya gelecek */}
         </div>
       </header>
