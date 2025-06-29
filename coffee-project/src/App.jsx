@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header';
+import AboutSection from './components/AboutSection';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
       <div>
         <Header />
-        <p>deneme</p>
+        <AboutSection />     
       </div>
     </>
   )
